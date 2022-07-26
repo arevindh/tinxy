@@ -4,19 +4,18 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='example_pypi_package',
-    author='Tom Chen',
-    author_email='tomchen.org@gmail.com',
-    description='Example PyPI (Python Package Index) Package',
-    keywords='example, pypi, package',
+    name='tinxy',
+    author='Siddhu',
+    author_email='me@siddhu.dev',
+    description='Tinxy Package',
+    keywords='Tinxy, tinxy.in',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/tomchen/example_pypi_package',
+    url='https://github.com/arevindh/tinxy',
     project_urls={
-        'Documentation': 'https://github.com/tomchen/example_pypi_package',
-        'Bug Reports':
-        'https://github.com/tomchen/example_pypi_package/issues',
-        'Source Code': 'https://github.com/tomchen/example_pypi_package',
+        'Documentation': 'https://github.com/arevindh/tinxy',
+        'Bug Reports': 'https://github.com/arevindh/tinxy/issues',
+        'Source Code': 'https://github.com/arevindh/tinxy',
         # 'Funding': '',
         # 'Say Thanks!': '',
     },
@@ -39,7 +38,7 @@ setuptools.setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
-    # install_requires=['Pillow'],
+    install_requires=['js2py'],
     extras_require={
         'dev': ['check-manifest'],
         # 'test': ['coverage'],
