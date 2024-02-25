@@ -38,7 +38,7 @@ setuptools.setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
-    install_requires=['js2py','asyncio','requests','simplejson'],
+    install_requires=['js2py','asyncio','requests','simplejson','tinxy'],
     extras_require={
         'dev': ['check-manifest'],
         # 'test': ['coverage'],
